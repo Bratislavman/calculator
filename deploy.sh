@@ -6,6 +6,6 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:bratislavman/calculator.git master:github-pages
+git push -f git@github.com:bratislavman/calculator.git github-pages:gh-pages
 
 cd -
