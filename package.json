@@ -5,8 +5,10 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
+  "homepage": "https://bratislavman.github.io/calculator/",
   "dependencies": {
     "core-js": "^3.6.5",
     "mathjs": "^9.5.0",
@@ -22,6 +24,7 @@
     "node-sass": "^6.0.1",
     "sass": "^1.42.1",
     "sass-loader": "^10.1.1",
+    "vue-gh-pages": "^1.19.1",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
